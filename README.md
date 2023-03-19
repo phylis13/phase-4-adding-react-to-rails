@@ -55,10 +55,7 @@ directory and add this line at the top level of the JSON object:
 Let's also update the "start" script in the the `package.json` file to specify a
 different port to run our React app in development:
 
-```json
-"scripts": {
-  "start": "PORT=4000 react-scripts start"
-}
+
 ```
 
 With that set up, let's try running our servers! In your terminal, run Rails:
